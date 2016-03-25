@@ -1,0 +1,30 @@
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 20px;
+  .port-item {
+    padding: 10px;
+    flex-basis: 300px;
+    text-align: justify;
+    img {
+      display: block;
+      margin: 0 auto 25px;
+      padding: 10px 10px 50px 10px;
+      border: solid 1px #666;
+      box-shadow: 5px 5px 15px grey;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      background-color: white;
+      }
+    &:hover {
+      img {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+      }   
+    }
+  }
+}

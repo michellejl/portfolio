@@ -1,0 +1,12 @@
+body {
+  background-color: $color__background-body;
+}
+.content {
+  width: 80%;
+  margin: 100px auto;
+}
+
+@import "lists";
+
+
+@import "tables";

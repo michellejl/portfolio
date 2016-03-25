@@ -1,0 +1,36 @@
+#main-area {
+  display: flex;
+  flex-flow: row nowrap;
+  #main-parts {
+    flex-grow: 3;
+  }
+  #nav-bar {
+    flex-grow: 1;
+    nav ul {
+      list-style-type: none;
+      list-style-position: inside;
+      margin: 100px 0 0;
+      padding: 0 50px;
+      li a {
+        display: block;
+        padding: 10px 50px;
+        text-align: center;
+        text-decoration: none;
+        border-bottom: 1px solid #dadada;
+      }  
+    }
+  }
+}
+@media (max-width: 600px) {
+  #nav-bar{
+    display: none;
+  }
+}
+
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/portfolio";
+@import "primary/about";
+@import "primary/contact";
