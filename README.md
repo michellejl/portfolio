@@ -1,3 +1,1 @@
-Working on a new layout for my portfolio. Still playing with how I want to code it. See individual methods for creating it in the different folders.
-
-Starting with playing with Flexbox for the layout.
+Playing with a possible layout option for a portfolio I am rebuilding. This was mostly built to get myself more familiar with the features available as part of flexbox
